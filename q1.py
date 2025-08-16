@@ -61,10 +61,11 @@ def solve_sudoku(grid: List[List[int]]) -> List[List[int]]:
         solver.append_formula(cnf.clauses)
         if solver.solve():
             model = solver.get_model()
-            #print("SAT solution:", model)
-        else:
-           return []
-           #print("UNSAT")
+            print("SAT solution:", model)
+        else: 
+            print("UNSAT")
+            return []
+          
 
     ans = [[0] * 9 for _ in range(9)]
 
