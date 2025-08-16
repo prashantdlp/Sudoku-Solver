@@ -19,7 +19,7 @@ While LeetCode’s problem encourages a backtracking-based solution, this projec
 1. Clone the repository:  
    ```bash
    git clone https://github.com/prashantdlp/Sudoku-Solver.git
-   cd sat-sudoku-solver
+   cd Sudoku-Solver/
 2. Create and activate a virtual environment (recommended):
     ```bash
     python3 -m venv venv
