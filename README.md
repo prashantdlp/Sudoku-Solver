@@ -18,7 +18,7 @@ While LeetCode’s problem encourages a backtracking-based solution, this projec
 ## ⚙️ Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/sat-sudoku-solver.git
+   git clone https://github.com/prashantdlp/sat-sudoku-solver.git
    cd sat-sudoku-solver
 2. Create and activate a virtual environment (recommended):
     ```bash
